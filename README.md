@@ -5,7 +5,7 @@
 
 ## About Me
 
-Hey My Name is Priyansh Jain, I'm a 4rd year student at LNCT  .I am a Tech Enthusiast. Looking forward to learn new skills and add them in the list.
+Hey My Name is Priyansh Jain, I'm a 4rd year student at LNCT  .I am a Tech Enthusiast. Looking forward to learn new skills and adding them in the list.
 
 
 ## 𝗠𝘆 𝗧𝗲𝗰𝗸 𝗦𝘁𝗮𝗰𝗸
