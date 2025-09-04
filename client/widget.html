@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Property Chat Widget</title>
+  <script type="module" crossorigin src="/src/widget.jsx"></script>
+  <link rel="stylesheet" href="/src/styles/index.css">
+</head>
+<body>
+  <div id="chat-widget-root"></div>
+  
+  <script>
+    // Widget configuration - can be customized by the website owner
+    window.ChatWidgetConfig = {
+      apiUrl: 'http://localhost:3000',
+      position: 'bottom-right', // bottom-right, bottom-left, top-right, top-left
+      theme: 'light', // light, dark
+      primaryColor: '#3b82f6',
+      initialMessage: "Hello! I'm here to help you find the perfect property. How can I assist you today?",
+      suggestions: [
+        "I'm looking for a property",
+        "Show me featured properties", 
+        "Help me find a 2BHK apartment",
+        "What's available in my budget?"
+      ],
+      companyName: "Property Solutions",
+      enableVoice: true,
+      enableFileUpload: true,
+      maxMessageLength: 500,
+      showTypingIndicator: true,
+      showResponseTime: false, // Set to true for debugging
+      autoOpen: false, // Auto open chat on page load
+      welcomeDelay: 3000 // Delay before showing welcome message (if autoOpen is true)
+    };
+  </script>
+</body>
+</html>
